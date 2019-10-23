@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "/Users/bayon/eclipse-workspace/FreeCRMBDDFramework/src/main/java/features/employee.feature", //the path of features files 
+@CucumberOptions(features = "/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/src/main/java/features/addemployee.feature", //the path of features files 
 				 glue="stepdefintions", // the path  of stepdefinitions files
 				 plugin = {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
 				 dryRun = false, // check the mapping is proper between feature file and stepdefinition file

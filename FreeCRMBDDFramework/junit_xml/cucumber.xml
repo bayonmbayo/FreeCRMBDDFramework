@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="44.968">
-<testcase classname="Free CRM Login Feature" name="Free CRM Add a new Employee Test Scenario" time="24.881">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="55.787">
+<testcase classname="Free CRM add employee" name="Free CRM Add a new Employee Test Scenario" time="55.524">
 <system-out><![CDATA[Given user is already on login Page.........................................passed
 When title of Login Page is Free CRM........................................passed
-And user enters "Admin" and "admin123"......................................passed
+And user enters username and password.......................................passed
 And user clicks on login button.............................................passed
 Then user is on Home Page...................................................passed
 Then user moves the mouse over pim and click on add employee................passed
 Then user is on add employee page...........................................passed
-Then user tipps "bayon" and "Mbayo".........................................passed
-Then user click on save button..............................................passed
-Then close the browser......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Add a new Employee Test Scenario 2" time="19.825">
-<system-out><![CDATA[Given user is already on login Page.........................................passed
-When title of Login Page is Free CRM........................................passed
-And user enters "Admin" and "admin123"......................................passed
-And user clicks on login button.............................................passed
-Then user is on Home Page...................................................passed
-Then user moves the mouse over pim and click on add employee................passed
-Then user is on add employee page...........................................passed
-Then user tipps "Viviane" and "Mwamba"......................................passed
+Then user tipps employee details............................................passed
 Then user click on save button..............................................passed
 Then close the browser......................................................passed
 ]]></system-out>
