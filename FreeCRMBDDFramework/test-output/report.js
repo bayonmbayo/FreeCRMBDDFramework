@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/features/addemployee.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/features/employeemap.feature");
 formatter.feature({
   "name": "Free CRM add employee",
   "description": "",
@@ -14,7 +14,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_is_already_on_login_page() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_is_already_on_login_page() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -24,7 +24,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.title_of_Login_Page_is_Free_CRM() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.title_of_Login_Page_is_Free_CRM() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -32,12 +32,13 @@ formatter.result({
 formatter.step({
   "name": "user enters username and password",
   "rows": [
+    {},
     {}
   ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_enters_username_and_password(DataTable) in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_enters_username_and_password(DataTable) in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -47,7 +48,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_clicks_on_login_button() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_clicks_on_login_button() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -57,7 +58,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_is_on_Home_Page() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_is_on_Home_Page() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -67,7 +68,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_moves_the_mouse_over_pim_and_click_on_add_employee() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_moves_the_mouse_over_pim_and_click_on_add_employee() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -77,7 +78,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_is_on_add_employee_page() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_is_on_add_employee_page() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -85,22 +86,15 @@ formatter.result({
 formatter.step({
   "name": "user tipps employee details",
   "rows": [
+    {},
+    {},
+    {},
     {}
   ],
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_tipps_employee_details(DataTable) in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user click on save button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.user_click_on_save_button() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.user_tipps_employee_details(DataTable) in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
@@ -110,7 +104,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefintions.EmployeeStepDefinition.close_the_browser() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
+  "location": "stepdefintions.EmployeeMapStepDefinition.close_the_browser() in file:/C:/Users/bayon/git/FreeCRMBDDFramework/FreeCRMBDDFramework/target/classes/"
 });
 formatter.result({
   "status": "passed"
