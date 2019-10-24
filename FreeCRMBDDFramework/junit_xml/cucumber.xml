@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.418">
-<testcase classname="Free CRM add employee" name="Free CRM Add a new Employee Test Scenario" time="30.17">
-<system-out><![CDATA[Given user is already on login Page.........................................passed
-When title of Login Page is Free CRM........................................passed
-And user enters username and password.......................................passed
-And user clicks on login button.............................................passed
-Then user is on Home Page...................................................passed
-Then user moves the mouse over pim and click on add employee................passed
-Then user is on add employee page...........................................passed
-Then user tipps employee details............................................passed
-Then close the browser......................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.335">
+<testcase classname="Free CRM app test" name="free crm create add employee test" time="0.078">
+<system-out><![CDATA[Given user is on employee page..............................................passed
+When user fills the employees form..........................................passed
+Then employee is saved......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM app test" name="free crm create a task test" time="0.01">
+<system-out><![CDATA[Given user is on employee page..............................................passed
+When user fills the employees form..........................................passed
+Then employee is saved......................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
